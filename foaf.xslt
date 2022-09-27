@@ -7,4 +7,10 @@
             <xsl:value-of select="foaf:name" />
         </h2>
     </xsl:template>
+    <xsl:template match="rdf:RDF/foaf:knows/foaf:Person">
+        <p>
+            see also :
+            <xsl:value-of select="foaf:seeAlso" />
+        </p>
+    </xsl:template>
 </xsl:stylesheet>
