@@ -6,27 +6,5 @@
             name:
             <xsl:value-of select="foaf:name" />
         </h2>
-        <h2>
-            title:
-            <xsl:value-of select="foaf:title" />
-        </h2>
-        <h2>
-            given name:
-            <xsl:value-of select="foaf:givenname" />
-        </h2>
-        <h2>
-            family name:
-            <xsl:value-of select="foaf:family_name" />
-        </h2>
-        <h2>
-            gender:
-            <xsl:value-of select="foaf:gender" />
-        </h2>
-        <h2>
-            mbox_sha1sum:
-            <xsl:value-of select="foaf:mbox_sha1sum" />
-        </h2>
-        <br />
-        <xsl:text>&#013;</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
